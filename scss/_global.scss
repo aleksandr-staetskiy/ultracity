@@ -1,0 +1,17 @@
+body {
+  font-family: 'Trebuchet MS Regular';
+  background-color: $bg;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+  &:hover {
+    text-decoration: none;
+    color: hsl(0, 0%, 27%);
+  }
+}

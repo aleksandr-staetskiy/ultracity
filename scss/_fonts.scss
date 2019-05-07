@@ -1,0 +1,24 @@
+// regula font-weight   .box-name {font-family: 'Trebuchet MS Regular';}
+
+@font-face {
+  font-family: 'Trebuchet MS Regular';
+  src: url('fonts/TrebuchetMS.eot');
+  src: url('fonts/TrebuchetMS.eot?#iefix') format('embedded-opentype'),
+  url('fonts/TrebuchetMS.woff') format('woff'),
+  url('fonts/TrebuchetMS.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+  // bold font-weight  .box-name {font-family: 'Trebuchet MS Bold';}
+
+  @font-face {
+    font-family: 'Trebuchet MS Bold';
+    src: url('fonts/TrebuchetMS-Bold.eot');
+    src: url('fonts/TrebuchetMS-Bold.eot?#iefix') format('embedded-opentype'),
+    url('fonts/TrebuchetMS-Bold.woff') format('woff'),
+    url('fonts/TrebuchetMS-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+

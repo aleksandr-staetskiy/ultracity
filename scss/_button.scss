@@ -1,0 +1,10 @@
+.button {
+  padding: 10px 30px;
+  background: $bg;
+  border: 2px solid $color-main;
+  transition: 0.6s ease;
+
+  &:hover {
+    transform: scale(1.1);
+}
+}
