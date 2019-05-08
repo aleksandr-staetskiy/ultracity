@@ -1,0 +1,29 @@
+.promo {
+  background: url(../img/ultra.jpg)no-repeat;
+  background-size: cover;
+  color: #fff;
+
+  &__title {
+    font-size: 55px;
+    -webkit-text-stroke: 1px #b7ccdc;
+    margin-top: 65px;
+  }
+
+  &__arrow {
+    cursor: pointer;
+    display: block;
+    width: 63px;
+    height: 35px;
+    margin: 0 auto;
+    margin-top: 35px;
+    background: url(../img/arrow.png)no-repeat;
+    background-size: contain;
+  }
+
+  &__infoline {
+    text-align: center;
+    margin-top: 145px;
+    padding: 20px 0px;
+    background: hsla(11, 95%, 62%, 0.866);
+  }
+}

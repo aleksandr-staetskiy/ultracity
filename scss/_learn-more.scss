@@ -1,0 +1,16 @@
+.learn-more {
+  background: hsla(208, 67%, 35%, 0.797);
+  padding-bottom: 25px;
+
+  &__title {
+    font-size: 45px;
+    -webkit-text-stroke: 1px #b7ccdc;
+  }
+
+  &__input {
+    margin-right: 7px;
+    padding: 10px 0px;
+    padding-left: 7px;
+    border: none;
+  }
+}

@@ -25,7 +25,7 @@ a {
     color: #454545; }
 
 .header {
-  padding: 10px 0px; }
+  padding-top: 10px; }
   .header__info {
     color: #131313; }
 
@@ -52,10 +52,52 @@ a {
 
 .button {
   padding: 10px 30px;
-  background: #f7f4ee;
-  border: 2px solid #ea5d44;
+  border: none;
+  background: #ea5d44;
   transition: 0.6s ease; }
+  .button__text {
+    color: #fff; }
+    .button__text_dark {
+      color: #333; }
   .button:hover {
     transform: scale(1.1); }
+  .button_bd_orange {
+    border: 2px solid #ea5d44;
+    background: #f7f4ee; }
+
+.promo {
+  background: url(../img/ultra.jpg) no-repeat;
+  background-size: cover;
+  color: #fff; }
+  .promo__title {
+    font-size: 55px;
+    -webkit-text-stroke: 1px #b7ccdc;
+    margin-top: 65px; }
+  .promo__arrow {
+    cursor: pointer;
+    display: block;
+    width: 63px;
+    height: 35px;
+    margin: 0 auto;
+    margin-top: 35px;
+    background: url(../img/arrow.png) no-repeat;
+    background-size: contain; }
+  .promo__infoline {
+    text-align: center;
+    margin-top: 145px;
+    padding: 20px 0px;
+    background: rgba(250, 100, 66, 0.866); }
+
+.learn-more {
+  background: rgba(29, 93, 149, 0.797);
+  padding-bottom: 25px; }
+  .learn-more__title {
+    font-size: 45px;
+    -webkit-text-stroke: 1px #b7ccdc; }
+  .learn-more__input {
+    margin-right: 7px;
+    padding: 10px 0px;
+    padding-left: 7px;
+    border: none; }
 
 /*# sourceMappingURL=style.css.map */
