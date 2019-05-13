@@ -4,6 +4,19 @@
   background: $color-main;
   transition: 0.6s ease;
 
+  &_w_auto {
+    width: 100%;
+  }
+
+  &_lg {
+    width: 100%;
+  }
+
+  &_blue {
+    margin-top: 15px;
+    background: $color-main--blue;
+  }
+
   &__text {
     color: #fff;
 

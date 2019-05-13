@@ -1,0 +1,23 @@
+.flat {
+  text-align: center;
+
+  &__img {
+    width: 230;
+    height: 217px;
+
+    &-info {
+    margin: 0;
+    }
+
+    &-price {
+      color: $color-main;
+    }
+
+    &-wrap {
+      width: 100%;
+      background: #fff;
+      padding: 15px;
+      border: 2px solid $color-main--blue;
+    }
+  }
+}
