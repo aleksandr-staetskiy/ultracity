@@ -18,6 +18,24 @@
     margin-top: 35px;
     background: url(../img/arrow.png)no-repeat;
     background-size: contain;
+
+    & {
+      -webkit-animation: mover 1s infinite  alternate;
+      animation: mover 1s infinite  alternate;
+  }
+  & {
+      -webkit-animation: mover 1s infinite  alternate;
+      animation: mover 1s infinite  alternate;
+  }
+  @-webkit-keyframes mover {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-10px); }
+  }
+  @keyframes mover {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-10px); }
+  }
+  
   }
 
   &__infoline {
