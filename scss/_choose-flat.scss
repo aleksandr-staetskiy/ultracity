@@ -1,0 +1,38 @@
+.choose-flat {
+
+  &__title {
+    font-size: 37px;
+    font-weight: bold;
+    margin: 40px 0px;
+  }
+}
+
+
+//   flat-chooser
+
+.tabs{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.tabs .tab-link{
+	background: none;
+	color: #222;
+	display: inline-block;
+	padding: 10px 15px;
+	cursor: pointer;
+}
+
+.tabs .tab-link.current{
+	color: #222;
+}
+
+.tab-content{
+	display: none;
+	background: #ededed;
+	padding: 15px;
+}
+
+.tab-content.current{
+	display: inherit;
+}

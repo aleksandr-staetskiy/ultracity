@@ -1,0 +1,33 @@
+.variation {
+
+  &__title {
+    font-size: 37px;
+    font-weight: bold;
+    margin-top: 62px;
+    margin-bottom: 25px;
+  }
+
+  &__card {
+    padding: 30px;
+    text-align: center;
+    background: #fff;
+    border: 2px solid $color-main--blue;
+  }
+
+  &__name {
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 7px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  &__icon {
+    width: 120px;
+    height: 106px;
+  }
+}
+
+.copyright-ucalc {
+  display: none;
+}

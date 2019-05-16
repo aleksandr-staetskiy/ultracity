@@ -1,0 +1,21 @@
+.infrastructure {
+
+  &__title {
+    font-size: 39px;
+    font-weight: bold;
+  }
+
+  &__wrap {
+    display: flex;
+  }
+
+  &__icon {
+    width: 46px;
+    height: 46px;
+    margin-right: 30px;
+  }
+
+  &__map {
+    margin-top: 35px;
+  }
+}

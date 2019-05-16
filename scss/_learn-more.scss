@@ -5,6 +5,10 @@
   &__title {
     font-size: 45px;
     -webkit-text-stroke: 1px #b7ccdc;
+    
+    &_col_wh {
+      color: #fff;
+    }
   }
 
   &__input {
@@ -13,4 +17,5 @@
     padding-left: 7px;
     border: none;
   }
+
 }
