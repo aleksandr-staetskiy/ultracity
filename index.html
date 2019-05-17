@@ -19,12 +19,14 @@
 
   <header class="container header">
     <div class="row justify-content-between align-items-center">
-      <a href="" class="logo">
-        <img src="img/logo1.png" alt="logo">
-      </a>
-      <a href="" class="logo">
-        <img src="img/logo2.png" alt="logo">
-      </a>
+      <div class="header__wrap">
+        <a href="" class="logo">
+          <img src="img/logo1.png" alt="logo">
+        </a>
+        <a href="" class="logo logo_sever">
+          <img src="img/logo2.png" alt="logo" class="logo_h_40">
+        </a>
+      </div>
       <span class="header__info">
         Риэлтор агентства недвижимости «Адвекс» | Наталия Васильева
       </span>
@@ -36,13 +38,46 @@
     <div class="row">
       <nav class="navbar">
         <ul class="navbar__list">
-          <li class="navbar__item"><a href="" class="navbar__link">о проекте</a></li>
-          <li class="navbar__item"><a href="" class="navbar__link">выбрать квартиру</a></li>
-          <li class="navbar__item"><a href="" class="navbar__link">инфраструктура</a></li>
-          <li class="navbar__item"><a href="" class="navbar__link">варианты покупки</a></li>
-          <li class="navbar__item"><a href="" class="navbar__link">акции</a></li>
-          <li class="navbar__item"><a href="" class="navbar__link">местоположение</a></li>
+          <li class="navbar__item"><a href="#project" class="navbar__link">о проекте</a></li>
+          <li class="navbar__item"><a href="#choose-flat" class="navbar__link">выбрать квартиру</a></li>
+          <li class="navbar__item"><a href="#infrastructure" class="navbar__link">инфраструктура</a></li>
+          <li class="navbar__item"><a href="#variation" class="navbar__link">варианты покупки</a></li>
+          <li class="navbar__item"><a href="#promotion" class="navbar__link">акции</a></li>
+          <li class="navbar__item"><a href="#location" class="navbar__link">местоположение</a></li>
         </ul>
+         <!-- Collapse button -->
+         <button class="navbar-toggler second-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent23"
+         aria-controls="navbarSupportedContent23" aria-expanded="false" aria-label="Toggle navigation">
+         <div class="animated-icon2"><span></span><span></span><span></span><span></span></div>
+       </button>
+
+       <a href="tel:+79817256754" class="navbar__phone">+7 981 725-67-54</a>
+     
+       <!-- Collapsible content -->
+       <div class="collapse navbar-collapse" id="navbarSupportedContent23">
+     
+         <!-- Links -->
+         <ul class="navbar-nav mr-auto">
+           <li class="nav-item active">
+            <a href="#project" class="navbar__link">о проекте</a>
+           </li>
+           <li class="nav-item">
+            <a href="#choose-flat" class="navbar__link">выбрать квартиру</a>
+           </li>
+           <li class="nav-item">
+            <a href="#infrastructure" class="navbar__link">инфраструктура</a>
+           </li>
+           <li class="nav-item">
+            <a href="#variation" class="navbar__link">варианты покупки</a>
+           </li>
+           <li class="nav-item">
+            <a href="#promotion" class="navbar__link">акции</a>
+           </li>
+           <li class="nav-item">
+            <a href="#location" class="navbar__link">местоположение</a>
+           </li>
+         </ul>
+         <!-- Links -->
       </nav>
     </div>
   </header>
@@ -54,27 +89,27 @@
       </div>
     </div>
     <div class="row promo__infoline justify-content-center">
-      <div class="col-lg-3">
+      <div class="col-lg-3 col-md-4 col-sm-6">
         <div class="promo__info">
           <p>Срок сдачи: 2 кв. 2020 г., <br>
             4 кв. 2021 г., есть сданные</p>
         </div>
       </div>
-      <div class="col-lg-3">
+      <div class="col-lg-3 col-md-4 col-sm-6">
         <div class="promo__info">
-          <p>Приморский район, <br>
+          <p>Приморский район, <br>
             Комендантский проспект</p>
         </div>
       </div>
-      <div class="col-lg-3">
+      <div class="col-lg-3 col-md-4 col-sm-6">
         <div class="promo__info">
-          <p>Стоимость: <br>
+          <p>Стоимость: <br>
             от 3 200 000 ₽</p>
         </div>
       </div>
     </div>
     <div class="row learn-more justify-content-center">
-      <div class="col-lg-7 text-center">
+      <div class="col-lg-8 col-md-12 text-center">
         <div class="learn-more__title">
           <span>Скидка на квартиру 15%</span>
         </div>
@@ -150,71 +185,77 @@
       </div>
     </div>
   </section>
-  <section class="container project">
+  <section class="container project" id="project">
     <div class="row justify-content-center">
       <span class="project__title">О проекте</span>
     </div>
-    <!-- video here -->
+    <div class="project__video">
+      <div class="row">
+        <div class="col-lg-12">
+          <iframe width="100%" height="450px" src="https://www.youtube.com/embed/rqusV2Czv84" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
     <div class="info-block">
       <div class="row">
-        <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+        <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6">
           <div class="info-block__item">
             <img src="img/icons/location.png" alt="location" class="info-block__icon">
             <div class="info-block__text">
-              <p>Санкт-Петербург,Комендантский пр.,участок 305.</p>
+              <p>Санкт-Петербург, Комендантский пр.,участок 305.</p>
             </div>
           </div>
         </div>
-        <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+        <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6">
           <div class="info-block__item">
             <img src="img/icons/metro.png" alt="location" class="info-block__icon">
             <div class="info-block__text">
-              <p>«Комендантский проспект»22 мин. транспортом.</p>
+              <p>«Комендантский проспект»22 мин. транспортом.</p>
             </div>
           </div>
         </div>
-        <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+        <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6">
           <div class="info-block__item">
             <img src="img/icons/key.png" alt="location" class="info-block__icon">
             <div class="info-block__text">
-              <p>Срок сдачи: 2 кв. 2020,4 кв. 2021,есть сданные.</p>
+              <p>Срок сдачи: 2 кв. 2020, 4 кв. 2021,есть сданные.</p>
             </div>
           </div>
         </div>
-        <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+        <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6">
           <div class="info-block__item">
             <img src="img/icons/building.png" alt="location" class="info-block__icon">
             <div class="info-block__text">
-              <p>Застройщик:«Северный город».</p>
+              <p>Застройщик: «Северный город».</p>
             </div>
           </div>
         </div>
-        <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+        <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6">
           <div class="info-block__item">
             <img src="img/icons/otdelka.png" alt="location" class="info-block__icon">
             <div class="info-block__text">
-              <p>Отделка:чистовая, предчистовая.</p>
+              <p>Отделка чистовая, предчистовая.</p>
             </div>
           </div>
         </div>
-        <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+        <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6">
           <div class="info-block__item">
             <img src="img/icons/type.png" alt="location" class="info-block__icon">
             <div class="info-block__text">
-              <p>Тип дома:кирпично-монолитный.</p>
+              <p>Тип дома:кирпично-монолитный.</p>
             </div>
           </div>
         </div>
   
-        <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+        <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6">
           <div class="info-block__item">
             <img src="img/icons/10.png" alt="location" class="info-block__icon">
             <div class="info-block__text">
-              <p>10 разноэтажныхкорпусов высотой18-25 уровней.</p>
+              <p>10 разноэтажных корпусов высотой 18-25 уровней.</p>
             </div>
           </div>
         </div>
-        <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+        <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6">
           <div class="info-block__item">
             <img src="img/icons/secured.png" alt="location" class="info-block__icon">
             <div class="info-block__text">
@@ -222,15 +263,15 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+        <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6">
           <div class="info-block__item">
             <img src="img/icons/ball.png" alt="location" class="info-block__icon">
             <div class="info-block__text">
-              <p>Спортивные и детские площадки.</p>
+              <p>Спортивныеи детские площадки.</p>
             </div>
           </div>
         </div>
-        <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+        <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6">
           <div class="info-block__item">
             <img src="img/icons/tree.png" alt="location" class="info-block__icon">
             <div class="info-block__text">
@@ -238,7 +279,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+        <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6">
           <div class="info-block__item">
             <img src="img/icons/horse.png" alt="location" class="info-block__icon">
             <div class="info-block__text">
@@ -246,17 +287,17 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-2 col-md-3 col-sm-6 col-6">
+        <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6 col-6">
           <div class="info-block__item">
             <img src="img/icons/parking.png" alt="location" class="info-block__icon">
             <div class="info-block__text">
-              <p>Отапливаемыйпаркинг.</p>
+              <p>Отапливаемы паркинг.</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="row">
+    <div class="row bg_white">
       <div class="col-lg-4">
         <article class="project-card">
           <h5 class="project-card__title">АРХИТЕКТУРА</h5>
@@ -354,14 +395,14 @@
       </div>
     </div>
   </section>
-  <section class="container infrastructure">
+  <section class="container infrastructure" id="infrastructure">
     <div class="row justify-content-center">
       <span class="infrastructure__title">Инфраструктура</span>
     </div>
     <div class="white-bg">
       <div class="info-block">
         <div class="row justify-content-center">
-          <div class="col-lg-3">
+          <div class="col-lg-4 col-md-4 col-sm-6 col-6">
             <div class="infrastructure__wrap">
               <img src="img/icons/amphitheatre.png" alt="location" class="infrastructure__icon">
               <div class="infrastructure__text">
@@ -369,7 +410,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-4 col-md-4 col-sm-6 col-6">
             <div class="infrastructure__wrap">
               <img src="img/icons/open-air.png" alt="location" class="infrastructure__icon">
               <div class="infrastructure__text">
@@ -377,7 +418,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-4 col-md-4 col-sm-6 col-6">
             <div class="infrastructure__wrap">
               <img src="img/icons/leaf.png" alt="location" class="infrastructure__icon">
               <div class="infrastructure__text">
@@ -385,10 +426,8 @@
               </div>
             </div>
           </div>
-        </div>
-  
-        <div class="row justify-content-center">
-          <div class="col-lg-3">
+
+          <div class="col-lg-4 col-md-4 col-sm-6 col-6 mb-3">
             <div class="infrastructure__wrap">
               <img src="img/icons/ball.png" alt="location" class="infrastructure__icon">
               <div class="infrastructure__text">
@@ -396,7 +435,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-4 col-md-4 col-sm-6 col-6 mb-3">
             <div class="infrastructure__wrap">
               <img src="img/icons/tree.png" alt="location" class="infrastructure__icon">
               <div class="infrastructure__text">
@@ -404,7 +443,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-4 col-md-4 col-sm-6 col-6 mb-3">
             <div class="infrastructure__wrap">
               <img src="img/icons/school.png" alt="location" class="infrastructure__icon">
               <div class="infrastructure__text">
@@ -412,11 +451,36 @@
               </div>
             </div>
           </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-6 col-6 mb-3">
+            <div class="infrastructure__wrap">
+              <img src="img/icons/kids-playground.png" alt="location" class="infrastructure__icon">
+              <div class="infrastructure__text">
+                <p>3 детских площадки.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 col-6 mb-3">
+            <div class="infrastructure__wrap">
+              <img src="img/icons/horse.png" alt="location" class="infrastructure__icon">
+              <div class="infrastructure__text">
+                <p>Детский сад.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-6 col-6 mb-3">
+            <div class="infrastructure__wrap">
+              <img src="img/icons/parking.png" alt="location" class="infrastructure__icon">
+              <div class="infrastructure__text">
+                <p>Отапливаемый паркинг.</p>
+              </div>
+            </div>
+          </div>
         </div>
   
         <div class="row justify-content-center">
           <div class="col-lg-10">
-            <div class="infrastructure__map">
+            <div class="infrastructure__map>
               <img src="img/map.jpg" alt="infrastructure map">
             </div>
           </div>
@@ -424,7 +488,7 @@
       </div>
     </div>
   </section>
-  <div class="container offer">
+  <div class="container offer" id="offer">
     <div class="offer_hidden"></div>
     <div class="row learn-more  justify-content-center">
       <div class="col-lg-7 text-center">
@@ -441,7 +505,7 @@
       </div>
     </div>
   </div>
-  <section class="container variation">
+  <section class="container variation" id="variation">
     <div class="row justify-content-center">
       <h4 class="variation__title">Варианты покупки</h4>
     </div>
@@ -486,12 +550,25 @@
       </div>
     </div>
   </section>
-  <section class="container calculator">
-    <h6 class="calculator__title">Ипотечный калькулятор</h6>
-    <div class="uCalc_199710"></div>
+  <section class="container calculator" id="calculator">
+    <div class="row justify-content-center">
+      <h6 class="calculator__title">Ипотечный калькулятор</h6>
+    </div>
+    <div class="row bg_white justify-content-center">
+      <div class="col-xl-8 col-lg-8">
+        <div class="calculator__info">
+          <p>Поможем в подборе оптимальных ипотечных программ и <span class="calculator_big_blue">ОКАЖЕМ СОДЕЙСТВИЕ</span> в получении ипотечного кредита.</p>
+          <p>Для наших клиентов банки предлагают <span class="calculator_big_blue">МАКСИМАЛЬНЫЕ СКИДКИ </span> на процентную ставку.</p>
+          <p>Благодаря нам клиенты <span class="calculator_big_blue">ЭКОНОМЯТ СОТНИ ТЫСЯЧ РУБЛЕЙ </span> на переплате банковских процентов.</p>
+          <p> <span class="calculator_big_blue">МЫ ПОМОГАЕМ</span> решать сложные ситуации.</p>
+          <p>90% обращений заканчивается <span class="calculator_big_blue">ПОЛОЖИТЕЛЬНЫМ РЕШЕНИЕМ</span>.</p>
+        </div>
+      </div>
+    </div>
+    <div class="uCalc_199710 mt-5"></div>
     <script> var widgetOptions199710 = { bg_color: "transparent" }; (function () { var a = document.createElement("script"), h = "head"; a.async = true; a.src = (document.location.protocol == "https:" ? "https:" : "http:") + "//ucalc.pro/api/widget.js?id=199710&t=" + Math.floor(new Date() / 18e5); document.getElementsByTagName(h)[0].appendChild(a) })();</script>
   </section>
-  <div class="container offer offer-2">
+  <div class="container offer offer-2" id="offer-2">
     <div class="offer_hidden"></div>
     <div class="row learn-more  justify-content-center">
       <div class="col-lg-12 text-center">
@@ -508,7 +585,7 @@
       </div>
     </div>
   </div>
-  <section class="container choose-flat">
+  <section class="container choose-flat" id="choose-flat">
     <div class="row justify-content-center">
       <span class="choose-flat__title">Выбрать квартиру</span>
     </div>
@@ -588,7 +665,7 @@
         23142324334re et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       </div>
   </section>
-  <div class="container offer offer-3">
+  <div class="container offer offer-3" id="offer-3">
     <div class="offer_hidden"></div>
     <div class="row learn-more  justify-content-center">
       <div class="col-lg-12 text-center">
@@ -605,7 +682,7 @@
       </div>
     </div>
   </div>
-  <section class="container promotion">
+  <section class="container promotion" id="promotion">
     <div class="row justify-content-center">
       <span class="promotion__title">Акции и скидки</span>
     </div>
@@ -650,7 +727,7 @@
       </div>
     </div>
   </section>
-  <div class="container location">
+  <div class="container location" id="location">
     <div class="row justify-content-center">
       <span class="location__title">Местоположение</span>
     </div>
@@ -662,6 +739,7 @@
   </div>
 <script src="js/jquery-3.4.0.min.js"></script>
 <script src="js/owl.carousel.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <script src="js/script.js"></script>
 </body>
 

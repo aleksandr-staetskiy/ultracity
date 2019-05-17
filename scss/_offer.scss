@@ -14,6 +14,11 @@
   &_hidden {
     padding-top: 300px;
     visibility: hidden;
+    @media (max-width: 769px) {
+      & {
+        padding-top: 110px;
+      }
+    }
   }
 
 }

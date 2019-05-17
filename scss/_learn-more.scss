@@ -2,9 +2,25 @@
   background: hsla(208, 67%, 35%, 0.797);
   padding-bottom: 25px;
 
+  @media (max-width: $screen-sm) {
+    
+    & {
+      background: #375d9d;
+    }
+  }
+
   &__title {
     font-size: 45px;
     -webkit-text-stroke: 1px #b7ccdc;
+
+    @media (max-width: $screen-sm) {
+    
+      & {
+        font-size: 25px;
+        margin-top: 15px;
+        margin-bottom: 25px;
+      }
+    }
     
     &_col_wh {
       color: #fff;
@@ -14,8 +30,30 @@
   &__input {
     margin-right: 7px;
     padding: 10px 0px;
-    padding-left: 7px;
+    padding-left: 17px;
     border: none;
+
+    @media (max-width: $screen-sm) {
+    
+      & {
+        padding: 0;
+        text-align: center;
+        height: 46px;
+        width: 47%;
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  &__form {
+    @media (max-width: $screen-sm) {
+    
+      & {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+    }
   }
 
 }

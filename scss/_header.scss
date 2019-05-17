@@ -1,7 +1,21 @@
 .header {
   padding-top: 10px;
 
+  &__phone {
+    @media (max-width: 769px) {
+      & {
+        display: none;
+      }
+    }
+  }
+
   &__info {
     color: #131313;
+
+    @media (max-width: 769px) {
+      & {
+        display: none;
+      }
+    }
   }
 }

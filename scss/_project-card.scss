@@ -3,4 +3,12 @@
   background: #fff;
   padding: 23px 0px;
   margin: 10px 0;
+
+  &__title {
+    margin-bottom: 10px;
+  }
+
+  &__descr {
+    padding: 5px 7px;
+  }
 }

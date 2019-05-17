@@ -32,5 +32,11 @@
 &_bd_orange {
   border: 2px solid $color-main;
   background: $bg;
+
+  @media (max-width: 769px) {
+    & {
+      padding: 7px 20px;
+    }
+  }
 }
 }
