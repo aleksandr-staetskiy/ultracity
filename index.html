@@ -28,7 +28,7 @@
         </a>
       </div>
       <span class="header__info">
-        Риэлтор агентства недвижимости «Адвекс» | Наталия Васильева
+          Специалист агентства недвижимости «Адвекс» | Наталия Васильева
       </span>
       <a class="header__phone" href="tel:+79117620233">+7 911 762-02-33</a>
       <button class="button button_bd_orange" data-toggle="modal" data-target="#appointment">
@@ -179,9 +179,11 @@
     </div>
     <div class="row justify-content-center">
       <div class="col-lg-6">
-        <button type="submit" class="button button_lg mt-4">
-          <span class="button__text">Посмотреть все планировки и стоимость</span>
-        </button>
+        <a href="#choose-flat">
+          <span class="button button_lg d-block mt-3">
+            <span class="button__text">Посмотреть все планировки и стоимость</span>
+          </span>
+        </a>
       </div>
     </div>
   </section>
@@ -291,7 +293,7 @@
           <div class="info-block__item">
             <img src="img/icons/parking.png" alt="location" class="info-block__icon">
             <div class="info-block__text">
-              <p>Отапливаемы паркинг.</p>
+              <p>Отапливаемый паркинг.</p>
             </div>
           </div>
         </div>
@@ -384,8 +386,8 @@
       </div>
     </div>
     <div class="row justify-content-center">
-      <div class="col-lg-7">
-        <form action="" class="learn-more__form mt-4">
+      <div class="col-lg-8 col-md-10 col-sm-12">
+        <form action="#" class="learn-more__form mt-4">
           <input type="text" class="learn-more__input" placeholder="Ваше имя">
           <input type="text" class="learn-more__input" placeholder="Телефон">
           <button type="submit" class="button" data-toggle="modal" data-target="#appointment">
@@ -422,7 +424,7 @@
             <div class="info-block__item">
               <img src="img/icons/leaf.png" alt="location" class="info-block__icon">
               <div class="info-block__text">
-                <p>Городской огород во дворе..</p>
+                <p>Городской огород во дворе.</p>
               </div>
             </div>
           </div>
@@ -521,7 +523,7 @@
           <img src="img/ipoteka.jpg" alt="ипотека" class="variation__icon">
           <span class="variation__name">ИПОТЕКА</span>
           <div class="variation__card__descr">
-            <p>При покупке недвижимости в ипотеку, компания «Северный город» дарит покупателям Ultra City скидку - 15%.</p>
+            <p>При покупке недвижимости в ипотеку, компания «Северный город» дарит покупателям Ultra City скидку 15%.</p>
           </div>
         </div>
       </div>
@@ -857,22 +859,22 @@
       </div>
       <div class="col-lg-2 col-md-2 col-sm-4 col-6">
         <ul class="footer__list">
-          <li class="footer__item">о проекте</li>
-          <li class="footer__item">выбрать квартиру</li>
-          <li class="footer__item">инфраструктура</li>
+          <li class="footer__item"><a href="#project" class="footer__link">о проекте</a></li>
+          <li class="footer__item"><a href="#choose-flat" class="footerr__link">выбрать квартиру</a></li>
+          <li class="footer__item"><a href="#infrastructure" class="footer__link">инфраструктура</a></li>
         </ul>
       </div>
       <div class="col-lg-2 col-md-2 col-sm-4 col-6">
         <ul class="footer__list">
-          <li class="footer__item">варианты покупки</li>
-          <li class="footer__item">акции</li>
-          <li class="footer__item">местоположение</li>
+          <li class="footer__item"><a href="#variation" class="footer__link">варианты покупки</a></li>
+          <li class="footer__item"><a href="#promotion" class="footer__link">акции</a></li>
+          <li class="footer__item"><a href="#location" class="footer__link">местоположение</a></li>
         </ul>
       </div>
       <div class="col-lg-4 col-md-4 col-12 text-right ">
         <a class="footer__phone" href="tel:+79117620233">+7 911 762-02-33</a>
         <span class="footer__info">
-          Риэлтор агентства недвижимости «Адвекс» | Наталия Васильева
+          Специалист агентства недвижимости «Адвекс» | Наталия Васильева
         </span>
         <button class="button button_bd_orange mt-2" data-toggle="modal" data-target="#appointment">
           <span class="button__text button__text_dark">обратный звонок</span>
@@ -882,39 +884,36 @@
   </footer>
 
   
-  <!-- Modal -->
-  <div class="modal fade" id="appointment" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLongTitle">Заказать обратный звонок</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-            <div class="form-box">
-                <form action="https://api.formbucket.com/f/c2K3QTQ" method="post">
-                  <div class="form-group">
-                    <label for="name">Имя</label>
-                    <input class="form-control" id="name" type="text" name="Name">
-                  </div>
-                  <div class="form-group">
-                    <label for="email">Email</label>
-                    <input class="form-control" id="email" type="email" name="Email">
-                  </div>
-                  <div class="form-group">
-                    <label for="message">Сообщение</label>
-                    <textarea class="form-control" id="message" name="Message"></textarea>
-                  </div>
-                  <input class="btn btn-primary" type="submit" value="Подтвердить" />
-                  </div>
-                </form>
+    <!-- Modal for appointment-->
+    <div class="modal modal_z_index fade" id="appointment" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Записаться</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form action="" class="form">
+              <input type="text" class="form__input" placeholder="Имя">
+              <input type="tel" class="form__input" placeholder="Телефон">
+              <textarea name="message" placeholder="Оставить комментарий"></textarea>
+              <div class="checkbox form__checkbox">
+                <input checked="" id="privacy_agreement" name="privacy" type="checkbox" value="true"> Я согласен(на) на
+                обработку персональных данных.
               </div>
+            </form>
+          </div>
+          <div class="modal-footer justify-content-center">
+            <button class="button" id="button_modal" type="submit">
+              <span class="button__text">записаться</span>
+            </button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
 
 <script src="js/jquery-3.4.0.min.js"></script>
