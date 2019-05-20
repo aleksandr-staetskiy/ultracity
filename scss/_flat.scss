@@ -1,9 +1,13 @@
 .flat {
   text-align: center;
+  margin-bottom: 15px;
 
   &__img {
-    width: 230;
-    height: 217px;
+
+    &_h_220 {
+      height: 220px;
+    }
+    
 
     &-info {
     margin: 0;
@@ -14,10 +18,15 @@
     }
 
     &-wrap {
+      height: 400px;
       width: 100%;
       background: #fff;
       padding: 15px;
       border: 2px solid $color-main--blue;
+
+      &_h_auto {
+        height: auto;
+      }
     }
   }
 }

@@ -13,7 +13,7 @@
 .tabs{
 	margin: 0px;
 	padding: 0px;
-	list-style: none;
+	// list-style: none;
 }
 .tabs .tab-link{
 	background: none;
@@ -21,10 +21,12 @@
 	display: inline-block;
 	padding: 10px 15px;
 	cursor: pointer;
+	border: 2px solid $color-main;
 }
 
 .tabs .tab-link.current{
-	color: #222;
+	background: $color-main;
+	color: white;
 }
 
 .tab-content{

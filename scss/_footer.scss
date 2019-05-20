@@ -1,0 +1,40 @@
+.footer {
+  margin-top: 10px;
+  padding-top: 15px;
+  border-top: 3px solid $color-main--blue;
+
+  @media (max-width: $screen-sm) {
+    .text-right {
+      text-align: center!important;
+    } 
+  }
+
+  &__list {
+    padding-left: 15px;
+    list-style: none;
+    @media (max-width: $screen-sm) {
+    
+      & {
+        margin-top: 25px;
+      }
+    }
+  }
+
+  &__phone {
+    display: block;
+  }
+
+  &__info {
+    display: block;
+  }
+
+  &__wrap {
+    @media (max-width: $screen-sm) {
+    
+      & {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+}
