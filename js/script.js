@@ -94,6 +94,12 @@ $(document).ready(function(){
 	})
 })
 
+// resize img init
+
+$(function () {
+    $(".resizable").simplebox();
+});
+
 
 
 
